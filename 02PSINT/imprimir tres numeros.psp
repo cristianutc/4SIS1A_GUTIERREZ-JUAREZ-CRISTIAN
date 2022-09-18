@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	Definir a,b,c Como Entero
+	Escribir 'dame el valor a'
+	Leer a
+	Escribir 'dame el valor b'
+	Leer b
+	Escribir 'dame el valor c'
+	Leer c
+	Si a>b Y a>c Y b>c Entonces
+		Escribir 'el numero mayor es: ',a
+		Si b>a Y b<c Y a>c Entonces
+			Escribir 'el numero mayor es: ',b
+			Si c>a Y c>b Y b>a Entonces
+				Escribir 'el numero mayor es: ',c
+			SiNo
+				Escribir 'el numero menor es: ',a
+			FinSi
+		SiNo
+			Escribir 'el numero menor es: ',c
+		FinSi
+	SiNo
+		Escribir 'el numero menor es: ',c
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Definir a,b,c Como Real
+	Escribir 'escribe el cateto a'
+	Leer a
+	Escribir 'escribe el cateto b'
+	Leer b
+	c <- rc((a*a)+(b*b))
+	Escribir 'la hipotenusa del triangulo es: ',c
+FinAlgoritmo

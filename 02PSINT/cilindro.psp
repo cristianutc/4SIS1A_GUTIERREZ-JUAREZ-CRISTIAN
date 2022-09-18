@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir 'ingrese el radio'
+	Leer radio
+	Escribir 'ingrese la altura '
+	Leer altura
+	area <- 2*pi*radio*(altura+radio)
+	volumen <- pi*(radio^2)*altura
+	Escribir 'el volumen es:',volumen
+	Escribir 'el area es: ',area
+FinAlgoritmo
